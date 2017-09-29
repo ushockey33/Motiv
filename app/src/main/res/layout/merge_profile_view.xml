@@ -4,10 +4,17 @@
 
   <include layout="@layout/toolbar_layout" />
 
-  <FrameLayout
+  <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+      <ImageView
+          android:id="@+id/profile_image"
+          style="@style/Profile.Photo"
+          android:layout_width="@dimen/profile_image"
+          android:layout_height="@dimen/profile_image"
+          android:padding="@dimen/profile_image_padding" />
 
-  </FrameLayout>
+  </LinearLayout>
+
 
 </merge>

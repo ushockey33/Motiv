@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.novoda.bonfire.view.AutofitRecyclerView
+    <com.SD.motiv.view.AutofitRecyclerView
       android:id="@+id/channels"
       style="@style/Channels.RecyclerView"
       android:layout_width="match_parent"
